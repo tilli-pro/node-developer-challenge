@@ -167,7 +167,7 @@ flowchart TD
 
 ## Some additional notes
 
-Certain implementation details have been left out deliberately in order to gauge your ability to fill in the gaps. Don't be afraid to ask questions, but also don't be surprised if for certain questions the response is that it's up to you to determine that.
+Certain implementation details have been **deliberately** left out in order to gauge your ability to fill in the gaps. Don't be afraid to ask questions, but also don't be surprised if for certain questions the response is that it's up to you to determine that.
 
 There are no reservations about libraries that you use, and it is definitely recommended that you use one (or multiple) of the many CLI tooling packages in the js ecosystem in order to focus on building the functionality rather than the barebones CLI portion of this application.
 

@@ -40,7 +40,7 @@ OPTIONS
   -a api-key
       Use specified AlphaVantage API key. If no global config present or global config has no API key then interactive mode will launch to query the user for an API key.
 
-  -v  View the stock's summary stats for the current day once found or chosen. Is inferred to be true if the -s flag is not present.
+  -v  View the stock summary stats for the current day once found or chosen. Is inferred to be true if the -s flag is not present.
 
   -s  Save the stock symbol and its summary statistics.
 
@@ -56,7 +56,7 @@ DIAGNOSTICS
   The following diagnostics may be issued on stderr:
 
   Rate limit exceeded.
-    The API key used in the configuration has gone past the rate limit set by AlphaVantage's API. Please either wait for a new rate period or upgrade your API key.
+    The API key used in the configuration has gone past the rate limit set by the AlphaVantage API. Please either wait for a new rate period or upgrade your API key.
   [STUBBED] - add additional potential diagnostics for errors here
 
 AUTHOR

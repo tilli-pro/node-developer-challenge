@@ -23,7 +23,10 @@ The output below is a stubbed version of the helper text (`-h` or `--help` flag,
 
 Any implementation details that have not been included have been deliberately left out for you to create your own solution.
 
-```bash
+```zsh
+> man tt
+
+# output
 NAME
   tt - tilli ticker
 

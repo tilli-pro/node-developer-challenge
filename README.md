@@ -19,12 +19,12 @@ Your task is to create an interactive Node.js CLI application that will show sum
 
 ### Features
 
-The output below is a stubbed version of the helper text (`-h` or `--help` flag, though the actual output below is more representative of a `man` page) for the application. Flags in the `OPTIONS` section correspond with features. The interactive CLI app should be able to parse incoming arguments and generate interactive prompts to fill in missing information. Some sections are deliberately left incomplete (they will be marked via `[STUBBED]`); in your final submission should also include updated documentation.
+The output below is a stubbed version of the helper text (`-h` flag, though the actual output below is more representative of a `man` page) for the application. Flags in the `OPTIONS` section correspond with features. The interactive CLI app should be able to parse incoming arguments and generate interactive prompts to fill in missing information. Some sections are deliberately left incomplete (they will be marked via `[STUBBED]`); in your final submission should also include updated documentation.
 
 Any implementation details that have not been included have been deliberately left out for you to create your own solution.
 
 ```zsh
-> man tt
+> tt -h
 
 # output
 NAME
@@ -50,6 +50,8 @@ OPTIONS
   -l  View all saved stocks.
 
   -d  Delete a saved stock symbol.
+
+  -h  View command usage.
 
 FILES
   ~/.ttrc

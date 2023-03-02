@@ -8,7 +8,7 @@ Fork this repository and use your fork to build the challenge. When you've finis
 
 ## Terminology
 
-| Term               | Description               | AKA | Example |
+| Term               | Description               | AKA | Example(s) |
 | :----------------- | :------------------------ | --- | ------- |
 | Stock symbol       | A unique series of letters assigned to a stock for trading purposes (e.g. AAPL for Apple Inc.) | Stock ticker, Ticker symbol | AAPL (Apple Inc.) |
 | Exchange           | A market where financial securities such as stocks, bonds, and commodities are traded. | Stock exchange | NASDAQ, NYSE, NSE |

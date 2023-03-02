@@ -87,7 +87,7 @@ flowchart TD
 
   delete[Delete stock]
 
-  init-- "stdin" ---->apiKey-->ticker---->exchange---->listAll
+  init-- "tt" ---->apiKey-->ticker---->exchange---->listAll
   linkStyle 0 stroke:#fff
   linkStyle 1 stroke:#fff
   linkStyle 2 stroke:#fff

@@ -48,6 +48,13 @@ class Prompter {
     this.deleteStock = deleteOption;
     this.configFile = configFile;
     this.ticker = ticker;
+
+    if (this.ticker && ticker.includes(':')) {
+      const [exchangeValue, tickerValue] = ticker.split(':');
+      this.exchange = exchangeValue;
+      this.ticker = tickerValue;
+    }
+
     this.promptForMandatory();
   }
 

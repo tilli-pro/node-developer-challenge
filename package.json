@@ -1,0 +1,30 @@
+{
+  "name": "tilli-ticker",
+  "version": "1.0.0",
+  "description": "Tilli Nodejs challenge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backendsuraj/node-developer-challenge.git"
+  },
+  "author": "Suraj Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backendsuraj/node-developer-challenge/issues"
+  },
+  "homepage": "https://github.com/backendsuraj/node-developer-challenge#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
